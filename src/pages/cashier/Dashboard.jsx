@@ -150,7 +150,7 @@ export default function CashierDashboard() {
 
       // Free the table
       await updateDoc(doc(db, "tables", selectedTable.id), {
-        status: "available",
+        status: "free",
       });
 
       showSuccess("Payment successful");

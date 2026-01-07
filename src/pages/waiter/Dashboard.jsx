@@ -52,7 +52,7 @@ export default function WaiterDashboard() {
     const filteredTables = tables.filter(t => t.floor === selectedFloor);
 
     const statusLabel = {
-        available: 'Available',
+        available: 'free',
         occupied: 'Occupied',
         billing: 'Billing',
         closed: 'Closed'
